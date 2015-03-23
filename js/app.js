@@ -31,8 +31,8 @@ $(document).ready(function() {
 		$('.ryu-ready').show();
 	})
 	.keydown(function(){
-		$('.ryu-still').hide();
-		$('.ryu-cool').show();
+		$('.ryu-ready').hide();
+		$('.ryu-still').show();
 	});
 });
 

@@ -65,3 +65,29 @@ top: 167px;
 left: 520px;
 z-index: 10;
 } 
+
+.text{
+	position: absolute;
+	font-family: 'Rock Salt', cursive;
+	text-transform: uppercase;
+	left: 650px;
+	height: 425px;
+	width: 600px;
+	padding-top: 100px;
+}
+
+.how-to{
+	width: 600px;
+}
+
+.how-to p{
+	width: 50%;
+	color: #000;
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.how-to p + p{
+	margin-left: 275px;
+	padding-top: 40px;
+}

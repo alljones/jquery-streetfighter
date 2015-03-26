@@ -16,18 +16,20 @@ body{
   z-index: 1;
 }
 
-.ryu{
-	float:left;
-}
 
 .ryu {
     width: 659px;
     height: 494px;
+    float:left;
+    position: relative;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
+  position: absolute;
+  top: 0px
+  left:0px;
 }
 
 .ryu-ready, .ryu-throwing, .ryu-cool {
